@@ -92,6 +92,34 @@ Install the infoblox-client WAPI package. To install, run the following command:
 $ pip install infoblox-client
 ```
 
+PIP, the package management system for Python. If not already present, this can be installed, as below, depending on the Python version you use.
+
+```shell
+For Python2:
+
+sudo apt install python-pip 
+```
+
+```shell
+For Python3:
+
+sudo apt install python3-pip 
+```
+
+To install the infoblox-client WAPI package in Ubuntu, run the following commands:
+
+```shell
+For Python2:
+
+sudo pip install infoblox-client 
+```
+
+```shell
+For Python3:
+
+sudo pip3 install infoblox-client  
+```
+
 Installation of nios_modules Collection
 ----------------------------------------
 
